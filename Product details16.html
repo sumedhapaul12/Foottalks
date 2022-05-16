@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Product Details</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body bgcolor="#fffb6b">
+
+<div class="header">
+<div class="container">
+<div class="navbar">
+<div class="logo">
+<img src="images/logo.png" width="150px">
+</div>
+<nav>
+<ul>
+<li><a href="FooTTalks.html"> <font size="5"> <b>Home</b> </font> </a> </li>
+<li><a href="aboutus.html"> <font size="5"> <b>About</b> </font> </a> </li>
+<li><a href=""> <font size="5"> <b>Contact</b> </font> </a> </li>
+<li><a href="payment.html"> <font size="5"> <b> Cart<img src="images/cart.jpg" width="20px"> </b> </font> </a> </li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+
+<div class="small container single-product">
+<div class="row">
+<text align="center">
+<div class="col-2">
+<img src="images/W1A.jpeg" width="400" id="ProductImg">
+<div class="small-img-row">
+<div class="small-img-col">
+<br> <text align="center"> <img src="images/W1B.jpeg" width="250" class="small-img"> </br>
+</div>
+</div>
+</div>
+</text>
+<div class="col-2">
+<p>Home / shoes </p>
+<h1> Working</h1>
+<h2>Ankle length and High ankle Boots</h2>
+<h4>Rs.2499</h4>
+<select name = "dropdown">
+            <option value = "UK 5" selected>UK 5</option>
+            <option value = "UK 6" selected>UK 6</option>
+			 <option value = "UK 7" selected>UK 7</option>
+            <option value = "UK 8" selected>UK 8</option>
+			 <option value = "UK 9" selected>UK 9 </option>
+			 </select>
+			 <input type="number" value="1">
+			 <a href="payment.html" class="btn"> Add to Cart</a>
+			 <h3> Product Details<i class="fa fa-indent"></i></h3>
+			 <p>
+			 <font face="Algerian" color="blue"><br><b><u>KEY FEATURES</u><b></br></font>
+			 <font face ="Script MT Bold" color="sumedha">
+			 <br>Colour - Black<br>
+			 <br>Outer Material - Suede<br>
+			 <br>Sole Material - PVC sheet</br>
+			 <br>Pattern - Solid<br>
+			 </p>
+</div>
+</div>
+</div>
+<div class="small container">
+   <div class="row row-2">
+   <h2>Related Products</h2>
+   <p> View More</p>
+   </div>
+   <div class="footer">
+ <div class="container">
+ <div class="row">
+   <div class="footer-col-1">
+   <h3> Follow us </h3>
+   <p>Facebook</p>
+   <p>Instagram</p>
+   <p>Twitter</p>
+   <p>Outlook</p>
+ </div>
+ <div class="footer-col-2">
+   <img src="images/logo.png" width="150px">
+ </div>
+  <div class="footer-col-3">
+   <h3> Customer care </h3>
+   <p>9195658118</p>
+   <p>FooTTalks@gmail.com</p>
+   <p>New Delhi</p>
+   <p>India</p>
+ </div>
+ 
+ </div>
+ <hr>
+ <p class="Team"><b>Sumedha</b></p>
+ </div>
+ </div>
+
+	   <script>
+	   var ProductImg = document.getElementById("ProductImg");
+	   var SmallImg = document.getElementByClassName("small-img");
+	    SmallImg[0].onclick = function()
+		{
+		ProductImg.src = SmallImg[0]
+		}
+		</script>
+</body>
+</html>
